@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
+                git 'git https://github.com/karthikeya68/flask-devops-app.git'
             }
         }
 
